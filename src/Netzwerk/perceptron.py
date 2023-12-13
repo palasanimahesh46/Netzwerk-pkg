@@ -68,3 +68,4 @@ class Perceptron:
     def load(self, filepath):
         return joblib.load(filepath)
     
+    
