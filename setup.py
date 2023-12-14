@@ -9,7 +9,7 @@ PROJECT_NAME = "Netzwerk-pkg"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.4",
+    version="0.0.5",
     author=USER_NAME,
     author_email="palasanimahesh46@gmail.com",
     description="A small package for perceptron",
