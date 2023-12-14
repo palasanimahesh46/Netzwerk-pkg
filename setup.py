@@ -5,11 +5,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 PKG_NAME = "Netzwerk_pkg"
 USER_NAME = "palasanimahesh46"
-PROJECT_NAME = "Netzwerk_pkg"
+PROJECT_NAME = "Netzwerk-pkg"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author=USER_NAME,
     author_email="palasanimahesh46@gmail.com",
     description="A small package for perceptron",
@@ -23,6 +23,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
